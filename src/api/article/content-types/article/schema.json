@@ -56,6 +56,9 @@
         "shared.rich-text",
         "shared.slider"
       ]
+    },
+    "override_publish_date": {
+      "type": "date"
     }
   }
 }
