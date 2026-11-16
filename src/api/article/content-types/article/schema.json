@@ -42,9 +42,9 @@
       "target": "api::author.author",
       "inversedBy": "articles"
     },
-    "category": {
+    "categories": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "articles"
     },
@@ -57,7 +57,7 @@
         "shared.slider"
       ]
     },
-    "override_publish_date": {
+    "overridePublishDate": {
       "type": "date"
     }
   }
