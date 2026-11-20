@@ -58,7 +58,7 @@
       ]
     },
     "overridePublishDate": {
-      "type": "date"
+      "type": "datetime"
     }
   }
 }

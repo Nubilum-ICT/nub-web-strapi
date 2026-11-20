@@ -16,7 +16,8 @@
       "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "year": {
       "type": "string",
