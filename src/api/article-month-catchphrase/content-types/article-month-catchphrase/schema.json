@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_month_catchphrases",
+  "info": {
+    "singularName": "article-month-catchphrase",
+    "pluralName": "article-month-catchphrases",
+    "displayName": "Article month catchphrase"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "year": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "^\\d{4}-(0[1-9]|1[0-2])$"
+    }
+  }
+}
